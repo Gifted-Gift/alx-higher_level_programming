@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Define a MagicClass matching exactly a bytecode provided by Holberton."""
+"""Define a MagicClass matching exactly a bytecode provided by Gifted."""
 
 import math
 
@@ -17,7 +17,7 @@ class MagicClass:
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
             raise TypeError("radius must be a number")
-        lf.__radius = radius
+        self.__radius = radius
 
     def area(self):
         """Return the area of the MagicClass."""
