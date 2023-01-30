@@ -28,7 +28,6 @@ class Rectangle:
     @property
     def height(self):
         """getter for the pivate instance attribute height"""
-
         return self.__height
 
     @height.setter
@@ -45,7 +44,6 @@ class Rectangle:
         return self.__width * self.__height
 
     def perimeter(self):
-
         """returns the perimeter of the rectangle"""
         if self.__width == 0 or self.__height == 0:
             return 0
